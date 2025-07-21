@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('background.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 0 0 5px cyan;
+}
+
+.navbar {
+  display: flex;
+  gap: 15px;
+}
+
+header button {
+  color: aliceblue;
+  text-shadow: 0px 0px 6px cyan;
+  padding: 8px 16px;
+  border-radius: 10px;
+  background: black;
+  border: 2px solid white;
+  transition: 0.3s;
+}
+
+header button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.about-box,
+.project-box,
+.achievements-box,
+.contact-box {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 2px solid black;
+  border-radius: 13px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+
+#profile-img {
+  width: 400px;
+  max-width: 90%;
+  height: auto;
+  display: block;
+  margin-top: 10px;
+  filter: drop-shadow(0px 0px 12px gray);
+}
+
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(32, 32, 37);
+}
