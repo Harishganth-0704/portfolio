@@ -1,0 +1,17 @@
+# Node dependencies
+node_modules/
+.npm/
+npm-debug.log
+
+# Operating system files
+Thumbs.db
+EHthumbs.db
+Desktop.ini
+.DS_Store
+
+# Temporary workspace items
+.gemini/
+.tempmediaStorage/
+artifacts/*.png
+artifacts/*.webp
+*.log

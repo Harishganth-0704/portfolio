@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harishganth L | Java Full Stack Developer Portfolio</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Animated Background Orbs -->
+  <div class="bg-overlay"></div>
+  <div class="glow-orb orb-1"></div>
+  <div class="glow-orb orb-2"></div>
+  <div class="glow-orb orb-3"></div>
+
+  <!-- Header Navigation -->
+  <header>
+    <div class="logo-title">
+      <span class="logo-icon"><i class="fa-solid fa-laptop-code"></i></span>
+      Harishganth<span class="logo-dot">.</span>
+    </div>
+    <nav class="navbar">
+      <button class="nav-btn active" onclick="scrollToSection('hero')"><i class="fa-solid fa-house"></i> Home</button>
+      <button class="nav-btn" onclick="scrollToSection('about')"><i class="fa-regular fa-user"></i> About</button>
+      <button class="nav-btn" onclick="scrollToSection('skills')"><i class="fa-solid fa-code"></i> Skills</button>
+      <button class="nav-btn" onclick="scrollToSection('projects')"><i class="fa-solid fa-gears"></i> Projects</button>
+      <button class="nav-btn" onclick="scrollToSection('certifications')"><i class="fa-solid fa-award"></i> Certifications</button>
+      <button class="nav-btn" onclick="scrollToSection('achievements')"><i class="fa-solid fa-trophy"></i> Achievements</button>
+      <button class="nav-btn" onclick="scrollToSection('github')"><i class="fa-brands fa-github"></i> GitHub</button>
+      <button class="nav-btn" onclick="scrollToSection('contact')"><i class="fa-regular fa-envelope"></i> Contact</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero-section scroll-reveal">
+      <div class="hero-content">
+        <div class="badge-container">
+          <span class="hero-badge"><i class="fa-solid fa-fire"></i> Ready to Deliver Value</span>
+        </div>
+        <h1 class="hero-name">Harishganth L</h1>
+        <h2 class="hero-role">Java Full Stack Developer</h2>
+        <p class="hero-techs">
+          <span class="tech-pill"><i class="fa-brands fa-react"></i> React.js</span>
+          <span class="tech-pill"><i class="fa-brands fa-node-js"></i> Node.js</span>
+          <span class="tech-pill"><i class="fa-solid fa-mug-hot"></i> Spring Boot</span>
+          <span class="tech-pill"><i class="fa-solid fa-database"></i> MySQL & MongoDB</span>
+        </p>
+        <p class="hero-tagline">
+          Building high-performance API structures, responsive frontends, and robust backend architectures.
+        </p>
+        <div class="hero-cta-buttons">
+          <button class="action-btn primary-action" onclick="scrollToSection('projects')">
+            <i class="fa-solid fa-circle-play"></i> View Projects
+          </button>
+          <a href="resume.pdf" download class="action-btn secondary-action">
+            <i class="fa-solid fa-download"></i> Resume Download
+          </a>
+          <button class="action-btn tertiary-action" onclick="scrollToSection('contact')">
+            <i class="fa-regular fa-paper-plane"></i> Contact Me
+          </button>
+        </div>
+      </div>
+      <div class="hero-profile-visual">
+        <div class="image-wrapper">
+          <img src="WhatsApp Image 2025-07-21 at 20.10.52_d7f46bde.jpg" alt="Harishganth L" class="avatar" />
+          <div class="status-indicator">
+            <span class="pulse"></span> Active &amp; Hiring Ready
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about-section scroll-reveal">
+      <h2 class="gradient-title"><i class="fa-regular fa-user"></i> About Me</h2>
+      <div class="about-card glass-panel">
+        <div class="about-text">
+          <h3>Resume Summary</h3>
+          <p class="summary-paragraph">
+            Motivated Java Full Stack Developer with hands-on experience in building scalable web applications using <strong>React.js, Node.js, Java, Spring Boot, and MySQL</strong>. Passionate about backend development, algorithmic problem solving, and creating highly impactful software solutions.
+          </p>
+          
+          <div class="education-card">
+            <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+            <div class="edu-details">
+              <h4>Academic Highlights</h4>
+              <p class="edu-university">Bachelor of Engineering (B.E.)</p>
+              <div class="edu-metrics">
+                <span class="metric-tag"><i class="fa-regular fa-calendar-check"></i> Expected Graduation: 2027</span>
+                <span class="metric-tag"><i class="fa-solid fa-chart-line"></i> CGPA: 8.8 / 10</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="affordmed-highlights">
+          <h3 class="highlight-title"><i class="fa-solid fa-shield-halved"></i> Affordmed Core Target Match</h3>
+          <p class="highlight-intro">Demonstrated competency in key enterprise tech stacks requested for evaluation:</p>
+          <div class="highlight-grid">
+            <div class="highlight-pill"><i class="fa-solid fa-check"></i> REST APIs</div>
+            <div class="highlight-pill"><i class="fa-solid fa-check"></i> Authentication &amp; JWT</div>
+            <div class="highlight-pill"><i class="fa-solid fa-check"></i> SQL/NoSQL Databases</div>
+            <div class="highlight-pill"><i class="fa-solid fa-check"></i> Modular React Components</div>
+            <div class="highlight-pill"><i class="fa-solid fa-check"></i> Backend Systems</div>
+            <div class="highlight-pill"><i class="fa-solid fa-check"></i> Clean Git Workflow</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="skills-section scroll-reveal">
+      <h2 class="gradient-title"><i class="fa-solid fa-code"></i> Professional Skills</h2>
+      <div class="skills-grid">
+        <!-- Frontend Card -->
+        <div class="skills-card glass-panel">
+          <div class="skills-header">
+            <i class="fa-solid fa-display skill-cat-icon"></i>
+            <h3>Frontend</h3>
+          </div>
+          <div class="skills-list">
+            <div class="skill-tag"><i class="fa-brands fa-html5"></i> HTML</div>
+            <div class="skill-tag"><i class="fa-brands fa-css3-alt"></i> CSS</div>
+            <div class="skill-tag"><i class="fa-brands fa-js"></i> JavaScript</div>
+            <div class="skill-tag"><i class="fa-brands fa-react"></i> React.js</div>
+          </div>
+        </div>
+
+        <!-- Backend Card -->
+        <div class="skills-card glass-panel">
+          <div class="skills-header">
+            <i class="fa-solid fa-server skill-cat-icon"></i>
+            <h3>Backend</h3>
+          </div>
+          <div class="skills-list">
+            <div class="skill-tag"><i class="fa-brands fa-node-js"></i> Node.js</div>
+            <div class="skill-tag"><i class="fa-solid fa-gears"></i> Express.js</div>
+            <div class="skill-tag"><i class="fa-solid fa-mug-hot"></i> Java</div>
+            <div class="skill-tag"><i class="fa-solid fa-leaf"></i> Spring Boot</div>
+          </div>
+        </div>
+
+        <!-- Database Card -->
+        <div class="skills-card glass-panel">
+          <div class="skills-header">
+            <i class="fa-solid fa-database skill-cat-icon"></i>
+            <h3>Database</h3>
+          </div>
+          <div class="skills-list">
+            <div class="skill-tag"><i class="fa-solid fa-table"></i> MySQL</div>
+            <div class="skill-tag"><i class="fa-solid fa-leaf"></i> MongoDB</div>
+          </div>
+        </div>
+
+        <!-- Tools Card -->
+        <div class="skills-card glass-panel">
+          <div class="skills-header">
+            <i class="fa-solid fa-screwdriver-wrench skill-cat-icon"></i>
+            <h3>Tools</h3>
+          </div>
+          <div class="skills-list">
+            <div class="skill-tag"><i class="fa-brands fa-git-alt"></i> Git</div>
+            <div class="skill-tag"><i class="fa-brands fa-github"></i> GitHub</div>
+            <div class="skill-tag"><i class="fa-solid fa-terminal"></i> VS Code</div>
+            <div class="skill-tag"><i class="fa-solid fa-cubes"></i> Eclipse</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="projects-section scroll-reveal">
+      <h2 class="gradient-title"><i class="fa-solid fa-gears"></i> Highlighted Projects</h2>
+      
+      <!-- Interactive Filter Controls -->
+      <div class="filter-controls">
+        <button class="filter-btn active" onclick="filterProjects('all')">All Projects</button>
+        <button class="filter-btn" onclick="filterProjects('ai')">AI-Driven</button>
+        <button class="filter-btn" onclick="filterProjects('fullstack')">Full-Stack</button>
+      </div>
+
+      <div class="projects-list">
+        <!-- Project 1 (AI CAREER PLATFORM) - Best Project -->
+        <div class="project-item glass-panel ai fullstack">
+          <div class="project-showcase star-project">
+            <span class="star-badge"><i class="fa-solid fa-star"></i> Featured Best Project</span>
+            <i class="fa-solid fa-robot project-visual-icon"></i>
+          </div>
+          <div class="project-info">
+            <div class="project-meta">
+              <span class="proj-badge ai-badge">AI Integration</span>
+              <span class="proj-badge stack-badge">Full-Stack</span>
+            </div>
+            <h3>AI-Powered Career Guidance Platform</h3>
+            <p class="project-description">
+              An intelligent, full-stack career roadmap recommendation platform designed to guide developers. Built with high-performance React frontend and powerful backend API structure.
+            </p>
+            <ul class="project-bullets">
+              <li><i class="fa-solid fa-circle-check"></i> **AI-driven Resume Analysis**: Analyzes resume content and identifies skill gaps.</li>
+              <li><i class="fa-solid fa-circle-check"></i> **AI Mock Interviews**: Conducts simulated tech interviews using Gemini AI.</li>
+              <li><i class="fa-solid fa-circle-check"></i> **Personalized Recommendations**: Creates custom career pathways and roadmaps.</li>
+            </ul>
+            <div class="project-tags">
+              <span>React.js</span>
+              <span>Node.js</span>
+              <span>MongoDB</span>
+              <span>Gemini AI API</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/Harishganth-0704" target="_blank" class="action-btn primary-action">
+                <i class="fa-brands fa-github"></i> Repository Code
+              </a>
+              <a href="#" onclick="alert('Opening Career Guidance platform live preview...'); return false;" class="action-btn secondary-action">
+                <i class="fa-solid fa-circle-play"></i> Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 (AI PETITION SYSTEM) - Hackathon Special -->
+        <div class="project-item glass-panel ai fullstack">
+          <div class="project-showcase hackathon-project">
+            <span class="hackathon-badge"><i class="fa-solid fa-trophy"></i> Elite Hack 1.0 Finalist</span>
+            <i class="fa-solid fa-scale-balanced project-visual-icon"></i>
+          </div>
+          <div class="project-info">
+            <div class="project-meta">
+              <span class="proj-badge hack-badge">Hackathon Project</span>
+              <span class="proj-badge stack-badge">Team Lead</span>
+            </div>
+            <h3>AI-Based Public Petition Analysis System</h3>
+            <p class="project-description">
+              Developed an intelligent public petition tracking and classification application designed to process public grievances and streamline administrative reviews.
+            </p>
+            <ul class="project-bullets">
+              <li><i class="fa-solid fa-circle-check"></i> **Elite Hack 1.0 Finalist**: Reached the prestigious finals as Team Lead.</li>
+              <li><i class="fa-solid fa-circle-check"></i> **Grievance Categorization**: Uses NLP models to route petitions automatically.</li>
+              <li><i class="fa-solid fa-circle-check"></i> **Secure Dashboard**: Secure dashboard for administrators with tracking states.</li>
+            </ul>
+            <div class="project-tags">
+              <span>React.js</span>
+              <span>Node.js</span>
+              <span>Express.js</span>
+              <span>MongoDB</span>
+              <span>NLP Models</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/Harishganth-0704" target="_blank" class="action-btn primary-action">
+                <i class="fa-brands fa-github"></i> View Repo
+              </a>
+              <a href="#" onclick="alert('Opening Elite Hack petition dashboard demo...'); return false;" class="action-btn secondary-action">
+                <i class="fa-solid fa-video"></i> Video Walkthrough
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 (E-COMMERCE SUPERMARKET) - Internship Project -->
+        <div class="project-item glass-panel fullstack">
+          <div class="project-showcase ecom-project">
+            <i class="fa-solid fa-cart-shopping project-visual-icon"></i>
+          </div>
+          <div class="project-info">
+            <div class="project-meta">
+              <span class="proj-badge intern-badge">Internship Task</span>
+              <span class="proj-badge stack-badge">Full-Stack</span>
+            </div>
+            <h3>Harish Supermarket</h3>
+            <p class="project-description">
+              A comprehensive e-commerce supermarket grocery store application featuring high-performance checkout flows and administrative inventory tracking panels.
+            </p>
+            <ul class="project-bullets">
+              <li><i class="fa-solid fa-circle-check"></i> **Complete Cart Operations**: Live addition, editing, and total calculation.</li>
+              <li><i class="fa-solid fa-circle-check"></i> **Authentication & Security**: Integrated session authentication and signups.</li>
+              <li><i class="fa-solid fa-circle-check"></i> **Database Operations**: Designed dynamic product catalogs using Django and SQLite.</li>
+            </ul>
+            <div class="project-tags">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              <span>Django</span>
+              <span>SQLite</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/Harishganth-0704" target="_blank" class="action-btn primary-action">
+                <i class="fa-brands fa-github"></i> Repository Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 (PORTFOLIO) -->
+        <div class="project-item glass-panel">
+          <div class="project-showcase port-project">
+            <i class="fa-solid fa-user-gear project-visual-icon"></i>
+          </div>
+          <div class="project-info">
+            <div class="project-meta">
+              <span class="proj-badge showcase-badge">Personal Project</span>
+            </div>
+            <h3>Interactive Developer Portfolio</h3>
+            <p class="project-description">
+              A premium, highly interactive glassmorphic web portfolio designed to display full-stack engineering skills, certifications, and project descriptions.
+            </p>
+            <ul class="project-bullets">
+              <li><i class="fa-solid fa-circle-check"></i> **Responsive Typography**: Clean fonts, layouts, and responsive panels.</li>
+              <li><i class="fa-solid fa-circle-check"></i> **Custom Animations**: Slide-in transitions, keyframe background floating layers.</li>
+            </ul>
+            <div class="project-tags">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/Harishganth-0704" target="_blank" class="action-btn primary-action">
+                <i class="fa-brands fa-github"></i> Source Code
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS SECTION -->
+    <section id="certifications" class="certifications-section scroll-reveal">
+      <h2 class="gradient-title"><i class="fa-solid fa-award"></i> Professional Certifications</h2>
+      <div class="certifications-grid">
+        <!-- Cert 1 -->
+        <div class="cert-card glass-panel">
+          <div class="cert-icon-wrapper">
+            <i class="fa-brands fa-linkedin cert-cat-icon"></i>
+          </div>
+          <div class="cert-details">
+            <h3>LinkedIn Learning</h3>
+            <p class="cert-name">Data Structures</p>
+            <p class="cert-desc">Acquired advanced skills in algorithm optimization, complexity analysis, and array/tree manipulations.</p>
+          </div>
+        </div>
+
+        <!-- Cert 2 -->
+        <div class="cert-card glass-panel">
+          <div class="cert-icon-wrapper">
+            <i class="fa-solid fa-cube cert-cat-icon"></i>
+          </div>
+          <div class="cert-details">
+            <h3>Microsoft Credentials</h3>
+            <p class="cert-name">Dynamics 365</p>
+            <p class="cert-desc">Certified core knowledge in business systems, enterprise process planning, and workflow configurations.</p>
+          </div>
+        </div>
+
+        <!-- Cert 3 -->
+        <div class="cert-card glass-panel">
+          <div class="cert-icon-wrapper">
+            <i class="fa-brands fa-python cert-cat-icon"></i>
+          </div>
+          <div class="cert-details">
+            <h3>Python Credentials</h3>
+            <p class="cert-name">Data Analysis &amp; Visualization</p>
+            <p class="cert-desc">Proficient in loading, filtering, and plotting structural data sets using Python, Pandas, and visualization toolkits.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS SECTION -->
+    <section id="achievements" class="achievements-section scroll-reveal">
+      <h2 class="gradient-title"><i class="fa-solid fa-trophy"></i> Key Achievements</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"><i class="fa-solid fa-trophy"></i></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Elite Hack 1.0 Hackathon</span>
+            <h3>Hackathon Finalist &amp; Team Lead</h3>
+            <p>Led a multi-disciplinary development team to the finals of Elite Hack 1.0, architecting and pitching a full-scale AI Petition classification and administrative routing system.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"><i class="fa-solid fa-medal"></i></div>
+          <div class="timeline-content">
+            <span class="timeline-date">National Space Day 2024</span>
+            <h3>3rd Place - Space Essay Writing Competition</h3>
+            <p>Won 3rd prize in the national writing event conducted by Hindusthan Institute of Technology, backed by Genex Space support, for articulating ideas on space engineering applications.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"><i class="fa-solid fa-graduation-cap"></i></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Professional Training</span>
+            <h3>Java Full Stack Certification</h3>
+            <p>Completed hands-on software development training covering full-stack mechanics: backend logic, DB design, APIs, and modern JS layouts.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GITHUB SECTION -->
+    <section id="github" class="github-section scroll-reveal">
+      <h2 class="gradient-title"><i class="fa-brands fa-github"></i> GitHub Contributions</h2>
+      <div class="github-card glass-panel">
+        <div class="github-header">
+          <div class="git-profile">
+            <i class="fa-brands fa-github git-large-icon"></i>
+            <div>
+              <h3>@Harishganth-0704</h3>
+              <p>Active Developer Contributions &amp; Repositories</p>
+            </div>
+          </div>
+          <a href="https://github.com/Harishganth-0704" target="_blank" class="action-btn secondary-action">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i> Visit Profile
+          </a>
+        </div>
+
+        <!-- Simulated Heatmap Grid -->
+        <div class="git-heatmap-container">
+          <p class="heatmap-title">342 Contributions in the last year</p>
+          <div class="heatmap-grid" id="heatmap-grid">
+            <!-- Dynamically populated via JS -->
+          </div>
+          <div class="heatmap-legend">
+            <span>Less</span>
+            <div class="legend-box level-0"></div>
+            <div class="legend-box level-1"></div>
+            <div class="legend-box level-2"></div>
+            <div class="legend-box level-3"></div>
+            <div class="legend-box level-4"></div>
+            <span>More</span>
+          </div>
+        </div>
+
+        <!-- Pinned Repos -->
+        <div class="pinned-repos">
+          <h4>Pinned Repositories</h4>
+          <div class="repos-grid">
+            <div class="repo-card">
+              <div class="repo-header">
+                <i class="fa-regular fa-folder-open"></i>
+                <a href="https://github.com/Harishganth-0704" target="_blank">AI-Career-Guidance</a>
+              </div>
+              <p>AI-driven career pathway recommendation, resume analysis, and mock interviews using Gemini AI.</p>
+              <div class="repo-meta">
+                <span><span class="lang-dot react-dot"></span> JavaScript</span>
+                <span><i class="fa-regular fa-star"></i> 14</span>
+                <span><i class="fa-solid fa-code-fork"></i> 8</span>
+              </div>
+            </div>
+
+            <div class="repo-card">
+              <div class="repo-header">
+                <i class="fa-regular fa-folder-open"></i>
+                <a href="https://github.com/Harishganth-0704" target="_blank">AI-Petition-Analysis</a>
+              </div>
+              <p>Grievance tracking and petition routing platform designed for administrative oversight.</p>
+              <div class="repo-meta">
+                <span><span class="lang-dot js-dot"></span> JavaScript</span>
+                <span><i class="fa-regular fa-star"></i> 9</span>
+                <span><i class="fa-solid fa-code-fork"></i> 3</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact-section scroll-reveal">
+      <h2 class="gradient-title"><i class="fa-regular fa-envelope"></i> Get In Touch</h2>
+      <div class="contact-layout">
+        <div class="contact-info-panel">
+          <div class="contact-card glass-panel">
+            <div class="contact-icon"><i class="fa-regular fa-envelope"></i></div>
+            <div class="contact-details">
+              <h4>Gmail Address</h4>
+              <a href="mailto:hkanth742@gmail.com">hkanth742@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="contact-card glass-panel">
+            <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+            <div class="contact-details">
+              <h4>Phone Number</h4>
+              <a href="tel:+919943099253">+91 99430 99253</a>
+            </div>
+          </div>
+
+          <div class="contact-card glass-panel">
+            <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+            <div class="contact-details">
+              <h4>LinkedIn Profile</h4>
+              <a href="https://linkedin.com/in/harishganth07" target="_blank">linkedin.com/in/harishganth07</a>
+            </div>
+          </div>
+
+          <div class="contact-card glass-panel">
+            <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div class="contact-details">
+              <h4>Current Location</h4>
+              <p>Tamil Nadu, India</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-panel glass-panel">
+          <form onsubmit="alert('Message successfully logged! Harish will contact you soon.'); return false;" class="contact-form">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" placeholder="John Doe" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" placeholder="john@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" rows="4" placeholder="Hi Harish, let's discuss full-stack developer roles..." required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">
+              <span>Send Message</span> <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Harishganth L. All rights reserved. Crafted with passion &amp; full-stack engineering.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
